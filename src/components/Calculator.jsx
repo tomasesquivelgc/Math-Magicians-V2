@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import './Calculator.css';
+import calculate from '../logic/calculate';
 
 // Button component
 function Button({ value, className = 'button', onClick }) {
@@ -33,14 +34,14 @@ function Calculator() {
   });
 
   const handleClick = (buttonName) => {
-    const newData = console.log(calculatorData, buttonName);
+    const newData = calculate(calculatorData, buttonName);
     setCalculatorData(newData);
   };
 
   return (
     <section className="calculatorBody">
       <div className="calculator">
-        <div className="display">0</div>
+        <div className="display">{calculatorData.next || calculatorData.total || '0'}</div>
         <div className="buttons">
           <Button onClick={handleClick} value="AC" />
           <Button onClick={handleClick} value="+/-" />
