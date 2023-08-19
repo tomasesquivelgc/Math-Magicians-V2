@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>Math magicians V2</b></h3>
+  <h3><b>Math magicians</b></h3>
 
 </div>
 
@@ -14,6 +14,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -30,9 +31,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Math magicians V2 <a name="about-project"></a>
+# 📖 Math magicians <a name="about-project"></a>
 
-**Math magicians V2** is a single page application built with react that consists of a simple calculator and a radom quote generator.
+**Math magicians** is a single page application built with react that consists of a simple calculator and a radom quote generator.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -52,6 +53,14 @@
 - **Simple calculator app built with JSX**
 - **Single page app with 3 pages**
 - **Random quote generator**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+You can try the Demo in [This Link](https://glowing-bienenstitch-48d70a.netlify.app)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -128,9 +137,9 @@ You can deploy this project using github pages
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Calculator**
-- [ ] **About page**
-- [ ] **Quote generator**
+- [X] **Calculator**
+- [X] **About page**
+- [X] **Quote generator**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
